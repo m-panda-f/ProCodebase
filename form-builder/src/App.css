@@ -16,17 +16,67 @@
   background-color: #f8f9fa;
   border-radius: 4px;
 }
-
-.canvas {
-  border: 2px dashed #ccc;
-  min-height: 100vh;
-  min-width: 100vw;
-  padding: 10px;
-  background-color: #f8f9fa;
+.canvas-container {
+  display: flex;
+  position: relative;
 }
 
-.canvas-field {
-  margin: 10px 0;
+.canvas {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.grid-item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.grid-item.selected {
+  border-color: blue;
+}
+
+.edit-panel {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  background: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 200px;
+}
+
+.edit-panel h4 {
+  margin: 0 0 10px;
+}
+
+.edit-panel label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.edit-panel button {
+  margin-right: 10px;
+}
+
+.save-btn {
+  background-color: green;
+  color: white;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
 }
 
 .App {
