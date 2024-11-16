@@ -43,15 +43,6 @@ To test the functionality:
 Toggle Modes: Ensure that you can switch between Drag-and-Drop Mode and Default Mode by clicking the button.
 Drag Elements: In Drag-and-Drop Mode, try dragging items and check if they move as expected.
 Verify Non-Draggable Mode: In Default Mode, ensure that elements cannot be moved.
-
-
-
-
-
-
-
-
-
 <br><br><br><br><br><br>
 
 Time Slot Booking Application
@@ -70,21 +61,15 @@ Prerequisites
 Python 3.9+
 Docker (optional, for containerized deployment)
 <h1>🔧 Installation and Setup</h1>
-1. Clone the Repository Clone the repository and navigate to the project directory:
+    1. Clone the Repository Clone the repository and navigate to the project directory:
 
-bash
-Copy code
-git clone <repository-url>
-cd timeslotbooking
+        git clone <repository-url>
+        cd timeslotbooking
 2. Install and Run the Application Set up the Django environment and start the application:
-
-bash
-Copy code
-# Run migrations to set up the database
-python manage.py migrate
-
-# Start the Django development server
-python manage.py runserver
+    
+        python manage.py migrate
+        python manage.py runserver
+   
 The application should now be running at http://127.0.0.1:8000/.
 <br><br><br>
 
