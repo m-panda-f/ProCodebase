@@ -88,6 +88,6 @@ Booking Validation: Attempt to book a slot in the past and ensure that the syste
 #💼 About the Developer
 I’m Mohammed Faizan, a passionate software developer with expertise in Python, Django, and web development. Explore more of my work and connect with me through the following links:
 
-Portfolio: m-panda-f.github.io/Portfolio <br>
-GitHub: github.com/m-panda-f <br>
-LinkedIn: linkedin.com/in/mohammed-faizan-b3305b299
+Portfolio: https://m-panda-f.github.io/Portfolio/ <br>
+GitHub: https://github.com/m-panda-f <br>
+LinkedIn: https://linkedin.com/in/mohammed-faizan-b3305b299
