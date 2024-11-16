@@ -1,0 +1,46 @@
+.toolbox {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-family: 'Georgia', serif;
+}
+
+.toolbox-item {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #d22323;
+  cursor: grab;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+}
+
+.canvas {
+  border: 2px dashed #ccc;
+  min-height: 100vh;
+  min-width: 100vw;
+  padding: 10px;
+  background-color: #f8f9fa;
+}
+
+.canvas-field {
+  margin: 10px 0;
+}
+
+.App {
+  display: flex;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 300px;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+}
+
+.canvas {
+  flex: 1;
+  margin-left: 10px;
+}
