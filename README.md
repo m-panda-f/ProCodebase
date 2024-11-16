@@ -45,7 +45,7 @@ Drag Elements: In Drag-and-Drop Mode, try dragging items and check if they move 
 Verify Non-Draggable Mode: In Default Mode, ensure that elements cannot be moved.
 <br><br><br><br><br><br>
 
-Time Slot Booking Application
+#Time Slot Booking Application
 
 <h2>🧩 Built by Mohammed Faizan</h2>
 This Django-powered application allows users to book available time slots for a given expert. It includes functionality for selecting a date, displaying available slots, and ensuring that booked slots remain unchanged until the page is refreshed.
